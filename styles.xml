@@ -2,10 +2,8 @@
 <resources>
     <style name="Theme.TechMtc" parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
-        <item name="android:windowActionModeOverlay">true</item>
         <item name="android:colorAccent">@color/techmtc_blue</item>
-        <item name="android:navigationBarColor">@color/white</item>
         <item name="android:statusBarColor">@color/techmtc_blue_dark</item>
-        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/white</item>
     </style>
 </resources>

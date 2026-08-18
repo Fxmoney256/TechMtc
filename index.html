@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TechMtc - Technician Mathematics</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TechMtc</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="app"></div>
-  <script src="app.js"></script>
+<div class="top"><div class="logo">TM</div><div><b>TechMtc</b><small>Technician Mathematics</small></div></div>
+<div class="wrap">
+<h1>Technician Mathematics Class</h1>
+<p class="muted">First & Second Year Trainees</p>
+<div class="years"><button onclick="setYear('First Year')">First Year</button><button onclick="setYear('Second Year')">Second Year</button></div>
+<div id="app"></div>
+</div>
+<nav>
+<button onclick="page='topics';render()">Topics</button>
+<button onclick="page='timetable';render()">Timetable</button>
+<button onclick="page='attendance';render()">Attendance</button>
+<button onclick="page='coursework';render()">Course Work</button>
+<button onclick="page='forum';render()">Forum</button>
+</nav>
+<script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,1 @@
+Open this folder in Android Studio, let Gradle sync, then press Run.
